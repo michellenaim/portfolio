@@ -11040,3 +11040,8 @@ ul.major-icons li .icon:before {
 .skill-icons {
   padding-top: 15px;
 }
+
+.skill-container {
+  padding-bottom: 40px;
+  margin-top: -5rem;
+}
