@@ -84,7 +84,7 @@
       </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-pink text-center">
       <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img
@@ -153,12 +153,10 @@
       </div>
     </section>
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio bg-primary" id="portfolio">
       <div class="container">
         <!-- Portfolio Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
+        <h2 class="page-section-heading text-center text-uppercase mb-0">
           Projects
         </h2>
         <!-- Icon Divider-->
@@ -177,20 +175,25 @@
             /></a>
             <div class="content">
               <h3>Kineto</h3>
-              <p>
+              <p class="lead">
                 Single-page web application designed to allow users to watch
                 movie trailers on demand. Built with Ruby on Rails, React,
                 Redux, Javascript, and PostgreSQL. Integrates AWS S3. Inspired
                 by Netflix.
               </p>
               <p>
-                <a href="https://kineto-app.herokuapp.com/" target="_blank"
-                  >Live Link</a
+                <button
+                  onclick="window.open('https://kineto-app.herokuapp.com/','_blank')"
+                  class="btn btn-smll btn-outline-light"
                 >
-                -
-                <a href="https://github.com/michellenaim/Kineto" target="_blank"
-                  >Code</a
+                  Live Link
+                </button>
+                <button
+                  onclick="window.open('https://github.com/michellenaim/Kineto','_blank')"
+                  class="btn btn-smll btn-outline-light"
                 >
+                  Code
+                </button>
               </p>
             </div>
           </section>
@@ -203,23 +206,24 @@
             /></a>
             <div class="content">
               <h3>Immerse</h3>
-              <p>
+              <p class="lead">
                 Piñata Smasher is an interactive piñata-smashing game with one
                 objective: smash as many piñatas as you can and stock up on
                 candy. Built with Javascript, HTML5 Canvas, and EaselJs.
               </p>
               <p>
-                <a
-                  href="https://michellenaim.github.io/immerse/"
-                  target="_blank"
-                  >Live Link</a
+                <button
+                  onclick="window.open('https://michellenaim.github.io/immerse/','_blank')"
+                  class="btn btn-smll btn-outline-light"
                 >
-                -
-                <a
-                  href="https://github.com/michellenaim/immerse"
-                  target="_blank"
-                  >Code</a
+                  Live Link
+                </button>
+                <button
+                  onclick="window.open('https://github.com/michellenaim/immerse','_blank')"
+                  class="btn btn-smll btn-outline-light"
                 >
+                  Code
+                </button>
               </p>
             </div>
           </section>
@@ -232,21 +236,24 @@
             /></a>
             <div class="content">
               <h3>Making Cent$</h3>
-              <p>
+              <p class="lead">
                 Custom ORM library that abstracts away complicated SQL queries
                 and provides a simple and intuitive interface for users to
                 effectively interact with databases.
               </p>
               <p>
-                <a href="https://making--cents.herokuapp.com/" target="_blank"
-                  >Live Link</a
+                <button
+                  onclick="window.open('https://making--cents.herokuapp.com/','_blank')"
+                  class="btn btn-smll btn-outline-light"
                 >
-                -
-                <a
-                  href="https://github.com/michellenaim/making-cents"
-                  target="_blank"
-                  >Code</a
+                  Live Link
+                </button>
+                <button
+                  onclick="window.open('https://github.com/michellenaim/making-cents','_blank')"
+                  class="btn btn-smll btn-outline-light"
                 >
+                  Code
+                </button>
               </p>
             </div>
           </section>
@@ -257,9 +264,7 @@
     <section class="page-section portfolio skill-container" id="skills">
       <div class="container">
         <!-- Skills Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
+        <h2 class="page-section-heading text-center text-uppercase mb-0">
           Skills
         </h2>
         <!-- Icon Divider-->
@@ -357,46 +362,36 @@
       </div>
     </section>
     <!-- Footer-->
-    <footer class="footer text-center" id="contact">
+    <footer class="footer" id="contact">
       <div class="container">
-        <div class="row">
+        <div class="footer-items">
           <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div>
             <h4 class="text-uppercase mb-4">Location</h4>
             <p class="lead mb-0">San Francisco, California</p>
           </div>
           <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Contact Me!</h4>
+          <div>
+            <h4 class="text-uppercase mb-4">Contact Me</h4>
             <a
-              class="btn btn-outline-light btn-social mx-1"
+              class="btn btn-outline-other btn-social mx-1"
               href="https://www.linkedin.com/in/michellenaim/"
               target="_blank"
             >
               <i class="fab fa-fw fa-linkedin-in"></i>
             </a>
             <a
-              class="btn btn-outline-light btn-social mx-1"
+              class="btn btn-outline-other btn-social mx-1"
               href="https://github.com/michellenaim"
               target="_blank"
               ><i class="fab fa-fw fa-github"></i>
             </a>
             <a
-              class="btn btn-outline-light btn-social mx-1"
+              class="btn btn-outline-other btn-social mx-1"
               href="mailto: michellenaim@gmail.com"
               target="_blank"
               ><i class="far fa-fw fa-envelope"></i>
             </a>
-          </div>
-          <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">
-              Freelance is a free to use, MIT licensed Bootstrap theme created
-              by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>
-              .
-            </p>
           </div>
         </div>
       </div>
