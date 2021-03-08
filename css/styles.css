@@ -6495,7 +6495,8 @@ a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #ffefec !important;
+  color: black;
 }
 
 .bg-secondary {
@@ -11067,8 +11068,7 @@ ul.major-icons li .icon:before {
   justify-content: space-around;
 }
 
-
-.btn-smll{
+.btn-smll {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   margin: 7px;
