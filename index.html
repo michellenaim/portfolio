@@ -63,7 +63,13 @@
           >Michelle Naim</a
         >
         <button
-          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary rounded"
+          class="
+            navbar-toggler navbar-toggler-right
+            text-uppercase
+            font-weight-bold
+            bg-primary
+            rounded
+          "
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
@@ -171,26 +177,26 @@
     </section>
     <!-- Portfolio Section-->
     <section class="page-section portfolio bg-primary" id="portfolio">
-      <div class="container">
-        <!-- Portfolio Section Heading-->
+      <!-- <div class="container"> -->
         <h2 class="page-section-heading text-center text-uppercase mb-0">
           Projects
         </h2>
-        <!-- Icon Divider-->
         <div class="divider-custom">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-        <div class="box alt container">
-          <section class="feature left">
+          <section class="row project">
             <a
               href="https://kineto-app.herokuapp.com/"
-              class="image icon"
+              class="image icon col-12 col-xl-6"
               target="_blank"
-              ><img src="assets/img/portfolio/Kineto_homepage.jpg" alt=""
+              ><img
+                src="assets/img/portfolio/Kineto_homepage.jpg"
+                alt="Kineto Homepage"
+                class="project-img"
             /></a>
-            <div class="content">
+            <div class="content project-text col-12 col-xl-6">
               <h3>Kineto</h3>
               <p class="lead">
                 Single-page web application designed to allow users to watch
@@ -214,14 +220,74 @@
               </p>
             </div>
           </section>
-          <section class="feature right">
-            <a
-              href="https://michellenaim.github.io/immerse/"
-              class="image icon"
-              target="_blank"
-              ><img src="assets/img/portfolio/Immerse_homepage.jpg" alt=""
-            /></a>
-            <div class="content">
+        <section class="row project">
+          <a
+            href="https://michellenaim.github.io/immerse/"
+            class="image icon col-12 col-xl-6"
+            target="_blank"
+            ><img
+              src="assets/img/portfolio/Immerse_homepage.jpg"
+              alt="Immerse homepage"
+              class="project-img"
+          /></a>
+          <div class="content project-text col-12 col-xl-6">
+            <h3>Immerse</h3>
+            <p class="lead">
+              Piñata Smasher is an interactive piñata-smashing game with one
+              objective: smash as many piñatas as you can and stock up on
+              candy. Built with Javascript, HTML5 Canvas, and EaselJs.
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://michellenaim.github.io/immerse/','_blank')"
+                class="btn btn-smll btn-outline-light"
+              >
+                Live Link
+              </button>
+              <button
+                onclick="window.open('https://github.com/michellenaim/immerse','_blank')"
+                class="btn btn-smll btn-outline-light"
+              >
+                Code
+              </button>
+            </p>
+          </div>
+        </section>
+        <section class="row project project-last">
+          <a
+            href="https://making--cents.herokuapp.com/"
+            class="image icon col-12 col-xl-6"
+            target="_blank"
+            ><img
+              src="assets/img/portfolio/Makingcents_homepage.jpg"
+              alt="Making Cents homepage"
+              class="project-img"
+          /></a>
+          <div class="content project-text col-12 col-xl-6">
+            <h3>Making Cent$</h3>
+            <p class="lead">
+              Custom ORM library that abstracts away complicated SQL queries
+              and provides a simple and intuitive interface for users to
+              effectively interact with databases.
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://making--cents.herokuapp.com/','_blank')"
+                class="btn btn-smll btn-outline-light"
+              >
+                Live Link
+              </button>
+              <button
+                onclick="window.open('https://github.com/michellenaim/making-cents','_blank')"
+                class="btn btn-smll btn-outline-light"
+              >
+                Code
+              </button>
+            </p>
+          </div>
+        </section>
+          <!-- <section class="feature row">
+            <div class="content col-12 col-xl-6">
               <h3>Immerse</h3>
               <p class="lead">
                 Piñata Smasher is an interactive piñata-smashing game with one
@@ -243,15 +309,25 @@
                 </button>
               </p>
             </div>
+            <a
+              href="https://michellenaim.github.io/immerse/"
+              class="image icon col-12 col-lg-6"
+              target="_blank"
+              ><img
+                src="assets/img/portfolio/Immerse_homepage.jpg"
+                alt="Immerse homepage"
+            /></a>
           </section>
-          <section class="feature left">
+          <section class="feature left row">
             <a
               href="https://making--cents.herokuapp.com/"
-              class="image icon"
+              class="image icon col-12 col-lg-6"
               target="_blank"
-              ><img src="assets/img/portfolio/Makingcents_homepage.jpg" alt=""
+              ><img
+                src="assets/img/portfolio/Makingcents_homepage.jpg"
+                alt="Making Cents homepage"
             /></a>
-            <div class="content">
+            <div class="content col-12 col-lg-6">
               <h3>Making Cent$</h3>
               <p class="lead">
                 Custom ORM library that abstracts away complicated SQL queries
@@ -273,7 +349,7 @@
                 </button>
               </p>
             </div>
-          </section>
+          </section> -->
         </div>
       </div>
     </section>
@@ -356,7 +432,12 @@
                 </li>
                 <li>
                   <span
-                    class="icon major devicon-amazonwebservices-plain-wordmark colored"
+                    class="
+                      icon
+                      major
+                      devicon-amazonwebservices-plain-wordmark
+                      colored
+                    "
                   ></span>
                 </li>
                 <li>
